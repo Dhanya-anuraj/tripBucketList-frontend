@@ -26,7 +26,7 @@ function CardList({destination , setDeleteDestinationStatus}) {
     <>
     <Card className='rounded p-2 mt-md-0 mt-3 mb-md-0 mb-2' style={{ width: '100%' }}>
        
-          <Card.Img variant="top" src={destination?.imageurl} className=' rounded' style={{width:"230px" , height:"150px"}}/>
+          <Card.Img variant="top" src={destination?.imageurl} className=' rounded w-100' style={{  height:"150px"}}/>
 
            <div className='mx-2 mt-2'>
              <h5>{destination?.place} <span className='fs-6'>- {destination?.country}</span></h5>
