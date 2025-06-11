@@ -1,0 +1,14 @@
+
+    .main{
+    background-image: url("https://www.globehopper.nl/wp-content/uploads/2022/05/Boutique-reizen-700x467.jpg");
+
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.sub-main{
+    background-color: rgb(0, 0, 0,0.555);
+    height: 100vh;
+}

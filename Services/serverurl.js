@@ -1,0 +1,1 @@
+export const serverurl = 'https://tripbucketlist-backend.onrender.com'
