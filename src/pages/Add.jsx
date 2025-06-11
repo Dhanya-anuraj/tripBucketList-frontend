@@ -65,7 +65,7 @@ function Add() {
                 <input  value={destinationDetails.imageurl} type="text" placeholder='Image Url' className='form-control' onChange={(e)=>setDestinationDetails({...destinationDetails, imageurl: e.target.value })}/>
               </div>
               <div className="mb-3">
-                <input type="date"  value={destinationDetails.expDate}  className='form-control' onChange={(e)=>setDestinationDetails({...destinationDetails, expDate: e.target.value })}/>
+                <input type="date"  value={destinationDetails.expDate} placeholder='Expected Date' className='form-control' onChange={(e)=>setDestinationDetails({...destinationDetails, expDate: e.target.value })}/>
               </div>
               <div className="mb-3">
                 <textarea  value={destinationDetails.notes} className='form-control pb-5' placeholder='Notes for the trip' onChange={(e)=>setDestinationDetails({...destinationDetails, notes: e.target.value })}/>
